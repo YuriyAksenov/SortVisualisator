@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 
-namespace SortVisualisator
+namespace SortVisualisator._App
 {
     public class RelayCommand : ICommand
     {

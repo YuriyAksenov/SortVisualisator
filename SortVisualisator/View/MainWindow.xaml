@@ -19,8 +19,8 @@
             <RowDefinition Height="0.2*"/>
         </Grid.RowDefinitions>
 
-        <StackPanel Grid.Row="2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <Button x:Name="Action" Command="{Binding StateCommand}" Content="{Binding AnimationState}"/>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button x:Name="Action" Command="{Binding ChangeStateCommand}" Content="{Binding State}"/>
             <!--<TextBox></TextBox>
             <ComboBox></ComboBox>-->
         </StackPanel>
